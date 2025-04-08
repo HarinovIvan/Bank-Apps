@@ -6,13 +6,10 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles_navigation.css">
     <link rel="stylesheet" href="./styles/payment.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="./styles/styles_header.css">
     <link rel="stylesheet" href="./styles/styles_main.css">
     <link rel="stylesheet" href="./styles/transactions.css">
-=======
     <link rel="stylesheet" href="./styles/footer.css">
->>>>>>> eb303e35721018e3cb374fb27115a822f3ed32d5
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./styles/styles_header.css">
@@ -30,12 +27,12 @@
             </div>
             <div>
                 <ul class="buttonh">
-                    <li><form class="search" action="" method="post">
+                    <li><form class="search" method="post">
                         <button type="submit"><img src="./icons/Addon.svg" alt="лупа"></button>
-                        <label for="comment"></label>
+                        <label for="username"></label>
                         <input type="text" id="username" name="username" placeholder="Введите">
                     </form></li>
-                    <li> <button class="вход"> <a href="#"> <img class="iconsh" src="./icons/default/IONIcon/P/person/default.svg" alt="человечек"> Войти </a> </button> </li> <!-- button Войти-->
+                    <li> <button class="вход"> <img class="iconsh" src="./icons/default/IONIcon/P/person/default.svg" alt="человечек"> Войти </button> </li> <!-- button Войти-->
                     <li> <button class="iconsh"> <img src="./icons/IONIcon_S_settings_sharp.svg" alt="настройки"> </button> </li><!-- button без текста-->
                     <li> <button class="iconsh"> <img src="./icons/IONIcon_N_notifications_default.svg" alt="уведомления"> </button> </li><!-- button без текста-->
                 </ul>
@@ -43,7 +40,7 @@
         </nav>
     </header>
     <main class="main">
-      <nav class="nav_main">
+        <nav class="nav_main">
             <ul class="ul_nav">
                 <li class="src_li"><div class="icon_nav"><svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_0_454)">
@@ -130,191 +127,195 @@
                 <button class="btn_nav_doc">ДОКУМЕНТАЦИЯ</button>
             </div>
         </nav>
-        <section class="cards">
-            <div class="card1-block">
-                <article class="card1">
-                    <p class="text1">7812 2139 0823 XXXX</p>
-                    <div class="details">
-                        <div class="information">
-                            <p class="text2">ДЕЙСТВИТЕЛЕН ДО</p>
-                            <p class="text3">05/24</p>
-                        </div>
-                        <div class="CVV">
-                            <p class="text4">CVV</p>
-                            <p class="text5">09X</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="card2">
-                    <img class="logo" src="./images/icons/icon-payment-1.svg" alt="logo">
-                    <div class="text-card2">
-                        <p class="text10">Зарплата</p>
-                        <p class="text11">Интерактивное принадлежащее</p>
-                        <p class="vect"></p>
-                        <p class="text12">+ 20.000₽</p>
-                    </div>
-                </article>
-                <article class="card2">
-                    <img class="logo" src="./images/icons/ican-payment-2.svg" alt="logo">
-                    <div class="text-card2">
-                        <p class="text10">Счет</p>
-                        <p class="text11">Фриланс</p>
-                        <div class="vect"></div>
-                        <p class="text12">455.00₽</p>
-                    </div>
-                </article>
-            </div>
-            <div class="pay">
-                <article class="card3">
-                    <div class="text-card3">
-                        <p class="text14">Способ оплаты</p>
-                        <button class="btn">Добавить</button>
-                    </div>
-                    <div class="input">
-                        <input class="vvod" type="text" placeholder="7812 2139 0823 XXXX">
-                        <input class="vvod2" type="text" placeholder="7812 2139 0823 XXXX">
-                    </div>
-                 </article>                
-            </div>
-        </section>
-        <section class="transactions">
-            <div class="transactions__header">
-                <h2 class="transactions__title">Ваши транзакции</h2>
-                <p class="transactions__lower_title">
-                    <img src="./images/icon/calendar.svg" alt="calendar">
-                    23 - 30 марта 2020 года
-                </p>
-            </div>
-            <div class="transactions__main">
-                <div>
-                    <div class="transactions__newer">
-                        <h3 class="transactions__main__title">Самый новый</h3>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        Яндекс
-                                    </h3>
-                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
-                                </div>
+        <div class="all-section">
+            <section class="cards">
+                <div class="card1-block">
+                    <article class="card1">
+                        <p class="text1">7812 2139 0823 XXXX</p>
+                        <div class="details">
+                            <div class="information">
+                                <p class="text2">ДЕЙСТВИТЕЛЕН ДО</p>
+                                <p class="text3">05/24</p>
                             </div>
-                            <p class="transactions__money transactions__money_backward">-2500₽</p>
-                        </div>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        Газпром
-                                    </h3>
-                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
-                                </div>
+                            <div class="CVV">
+                                <p class="text4">CVV</p>
+                                <p class="text5">09X</p>
                             </div>
-                            <p class="transactions__money">+2500₽</p>
                         </div>
-                    </div>
-                    <div class="transactions__latest">
-                        <h3 class="transactions__main__title">Вчера</h3>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        Страйп
-                                    </h3>
-                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
-                                </div>
-                            </div>
-                            <p class="transactions__money">+800₽</p>
+                    </article>
+                    <article class="card2">
+                        <img class="logo" src="./images/icons/icon-payment-1.svg" alt="logo">
+                        <div class="text-card2">
+                            <p class="text10">Зарплата</p>
+                            <p class="text11">Интерактивное принадлежащее</p>
+                            <p class="vect"></p>
+                            <p class="text12">+ 20.000₽</p>
                         </div>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        ВК
-                                    </h3>
-                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
-                                </div>
-                            </div>
-                            <p class="transactions__money">+1700₽</p>
+                    </article>
+                    <article class="card2">
+                        <img class="logo" src="./images/icons/ican-payment-2.svg" alt="logo">
+                        <div class="text-card2">
+                            <p class="text10">Счет</p>
+                            <p class="text11">Фриланс</p>
+                            <div class="vect"></div>
+                            <p class="text12">455.00₽</p>
                         </div>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img transactions__img_green pr" src="./images/icon/priority_high.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        Кион
-                                    </h3>
-                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
-                                </div>
-                            </div>
-                            <p class="transactions__money gr">В ожидании</p>
+                    </article>
+                </div>
+                <div class="pay">
+                    <article class="card3">
+                        <div class="text-card3">
+                            <p class="text14">Способ оплаты</p>
+                            <button class="btn">Добавить</button>
                         </div>
-                        <div class="transactions__item">
-                            <div class="transactions__item_mains">
-                                <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
-                                <div>
-                                    <h3 class="transactions__brend">
-                                        Тинькофф
-                                    </h3>
-                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                        <div class="input">
+                            <input class="vvod" type="text" placeholder="7812 2139 0823 XXXX">
+                            <input class="vvod2" type="text" placeholder="7812 2139 0823 XXXX">
+                        </div>
+                     </article>                
+                </div>
+            </section>
+            <section class="transactions">
+                <div class="transactions__header">
+                    <h2 class="transactions__title">Ваши транзакции</h2>
+                    <p class="transactions__lower_title">
+                        <img src="./images/icon/calendar.svg" alt="calendar">
+                        23 - 30 марта 2020 года
+                    </p>
+                </div>
+                <div class="transactions__main">
+                    <div>
+                        <div class="transactions__newer">
+                            <h3 class="transactions__main__title">Самый новый</h3>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            Яндекс
+                                        </h3>
+                                        <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                    </div>
                                 </div>
+                                <p class="transactions__money transactions__money_backward">-2500₽</p>
                             </div>
-                            <p class="transactions__money transactions__money_backward">-978₽</p>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            Газпром
+                                        </h3>
+                                        <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                    </div>
+                                </div>
+                                <p class="transactions__money">+2500₽</p>
+                            </div>
+                        </div>
+                        <div class="transactions__latest">
+                            <h3 class="transactions__main__title">Вчера</h3>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            Страйп
+                                        </h3>
+                                        <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                    </div>
+                                </div>
+                                <p class="transactions__money">+800₽</p>
+                            </div>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            ВК
+                                        </h3>
+                                        <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                    </div>
+                                </div>
+                                <p class="transactions__money">+1700₽</p>
+                            </div>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img transactions__img_green pr" src="./images/icon/priority_high.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            Кион
+                                        </h3>
+                                        <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                    </div>
+                                </div>
+                                <p class="transactions__money gr">В ожидании</p>
+                            </div>
+                            <div class="transactions__item">
+                                <div class="transactions__item_mains">
+                                    <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
+                                    <div>
+                                        <h3 class="transactions__brend">
+                                            Тинькофф
+                                        </h3>
+                                        <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                    </div>
+                                </div>
+                                <p class="transactions__money transactions__money_backward">-978₽</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-      </section>
-        <section class="accounts">
-            <section class="information">
-                <section class="billingm"> <!-- информация о выставлении счетов -->
-                   <h2 class="titlebil">Информация о выставлении счетов</h2>
-                   <article class="cards">
-                    <div class="текстcard">
-                    <h3 class="titlecard">Оливер Лиам</h3>
-                    <p class="textcard">Название компании: Викинг Буррито
-                        <br>
-                        Адрес электронной почты: oliver@burrito.com
-                        <br>
-                        Номер НДС: FRB1235476</p>
-                    </div>
-                        <div class="buttonm">
-                            <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
-                            <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+          </section>
+            <section class="accounts">
+                <section class="information">
+                    <section class="billingm"> <!-- информация о выставлении счетов -->
+                       <h2 class="titlebil">Информация о выставлении счетов</h2>
+                       <article class="cards">
+                        <div class="текстcard">
+                        <h3 class="titlecard">Оливер Лиам</h3>
+                        <p class="textcard">Название компании: Викинг Буррито
+                            <br>
+                            Адрес электронной почты: oliver@burrito.com
+                            <br>
+                            Номер НДС: FRB1235476</p>
                         </div>
-                   </article>
-                   <article class="cards">
-                    <div class="текстcard">
-                    <h3 class="titlecard">Оливер Лиам</h3>
-                    <p class="textcard">Название компании: Викинг Буррито
-                        <br>
-                        Адрес электронной почты: oliver@burrito.com
-                        <br>
-                        Номер НДС: FRB1235476</p>
-                    </div>
-                        <div class="buttonm">
-                            <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
-                            <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+                            <div class="buttonm">
+                                <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
+                                <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+                            </div>
+                       </article>
+                       <article class="cards">
+                        <div class="текстcard">
+                        <h3 class="titlecard">Оливер Лиам</h3>
+                        <p class="textcard">Название компании: Викинг Буррито
+                            <br>
+                            Адрес электронной почты: oliver@burrito.com
+                            <br>
+                            Номер НДС: FRB1235476</p>
                         </div>
-                   </article>
-                   <article class="cards">
-                    <div class="текстcard">
-                    <h3 class="titlecard">Оливер Лиам</h3>
-                    <p class="textcard">Название компании: Викинг Буррито
-                        <br>
-                        Адрес электронной почты: oliver@burrito.com
-                        <br>
-                        Номер НДС: FRB1235476</p>
-                    </div>
-                        <div class="buttonm">
-                            <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
-                            <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+                            <div class="buttonm">
+                                <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
+                                <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+                            </div>
+                       </article>
+                       <article class="cards">
+                        <div class="текстcard">
+                        <h3 class="titlecard">Оливер Лиам</h3>
+                        <p class="textcard">Название компании: Викинг Буррито
+                            <br>
+                            Адрес электронной почты: oliver@burrito.com
+                            <br>
+                            Номер НДС: FRB1235476</p>
                         </div>
-                   </article>
-            </section>
+                            <div class="buttonm">
+                                <button class="delete"> <img class="trashcan" src="./icons/delete.svg" alt="мусорка"> удалить </button>
+                                <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
+                            </div>
+                       </article>
+                </section>
+                </section>
+            </section>    
+        </div>
     </main>
     <footer class="footer">
         <ul>
