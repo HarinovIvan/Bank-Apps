@@ -5,9 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/transactions.css">
     <title>Bank Apps</title>
 </head>
 <body>
-    
+    <main>
+        <section class="transactions">
+            <div class="transactions__header">
+                <h2 class="transactions__title">Ваши транзакции</h2>
+                <p class="transactions__lower_title">
+                    <img src="./images/icon/calendar.svg" alt="calendar">
+                    23 - 30 марта 2020 года
+                </p>
+            </div>
+            <div class="transactions__main">
+                <div>
+                    <div class="transactions__newer">
+                        <h3 class="transactions__main__title">Самый новый</h3>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        Яндекс
+                                    </h3>
+                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money transactions__money_backward">-2500₽</p>
+                        </div>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        Газпром
+                                    </h3>
+                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money">+2500₽</p>
+                        </div>
+                    </div>
+                    <div class="transactions__latest">
+                        <h3 class="transactions__main__title">Вчера</h3>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        Страйп
+                                    </h3>
+                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money">+800₽</p>
+                        </div>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img transactions__img_green" src="./images/icon/forward.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        ВК
+                                    </h3>
+                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money">+1700₽</p>
+                        </div>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img transactions__img_green pr" src="./images/icon/priority_high.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        Кион
+                                    </h3>
+                                    <p class="transactions__desc">26 марта 2020 года, в 13:45 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money gr">В ожидании</p>
+                        </div>
+                        <div class="transactions__item">
+                            <div class="transactions__item_mains">
+                                <img class="transactions__img" src="./images/icon/backward.svg" alt="backward">
+                                <div>
+                                    <h3 class="transactions__brend">
+                                        Тинькофф
+                                    </h3>
+                                    <p class="transactions__desc">27 марта 2020 года, в 12:30 часов</p>
+                                </div>
+                            </div>
+                            <p class="transactions__money transactions__money_backward">-978₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,98 @@
+
+
+.transactions {
+    max-width: 660px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 14px 0 #0000000D;
+    border-radius: 20px;
+    padding:20px 40px;
+}
+.transactions__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.transactions__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+.transactions__lower_title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #A0AEC0;
+}
+
+.transactions__main__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #A0AEC0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.transactions__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.transactions__item_mains {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.transactions__img{
+    aspect-ratio: 1/1;
+    width: 12%;
+    height: 100%;
+    border: 1px solid #E53E3E;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+.transactions__img_green{
+    border: 1px solid #48BB78;
+}
+.transactions__brend {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2D3748;
+    margin-bottom: 5px;
+}
+.transactions__desc {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #A0AEC0;
+}
+.transactions__money{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #48BB78;
+}
+
+.transactions__money_backward{
+    color: #E53E3E;
+}
+
+.pr{
+    border:1px solid #A0AEC0;
+}
+
+.gr{
+    color: #2D3748;
+}
