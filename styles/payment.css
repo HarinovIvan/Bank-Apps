@@ -1,0 +1,220 @@
+
+
+.cards {
+    padding: 126px 0 0 304px;
+}
+
+.card1-block
+{
+    display: flex;
+    gap: 24px;
+}
+
+.card1{
+    background: url("../images/background/Background-payment.jpg") center / cover no-repeat;
+    border-radius: 20px;
+}
+
+.text1 {
+    padding:122.5px 186px 0 31px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.details{
+    display: flex;
+    padding: 13px 0 0 0;
+}
+
+.text2 {
+    padding: 0 0 0 31px;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.text3 {
+    padding: 0 0 0 31px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.text4 {
+    padding: 0 0 0 22px;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.text5 {
+    padding: 0 0 0 22px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    margin: 22px 0 0 88px;
+}
+
+.text-card2{
+    text-align: center;
+}
+
+.text10 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: black;
+    padding: 31.21px 0 0 0;
+}
+
+.text11 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(160, 174, 192, 1);
+    padding: 4px 0 0 0;
+}
+
+
+.vect {
+    height: 1px;
+    width: 172px;
+    background: radial-gradient(rgba(224, 225, 226, 1), rgba(224, 225, 226, 0));
+    margin: 15px 34px;
+}
+
+.text12 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+    padding: 0 0 25px 0;
+    
+}
+
+.pay {
+    padding: 24px 0 0 0;
+}
+
+.card3 {
+    width: 990px;
+    height: 172px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.text-card3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text14 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: black;
+    padding: 24px 0 0 24px;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(45, 55, 72, 1);
+    border-radius: 8px;
+    padding: 10px 42px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 24px 24px 0 0;
+}
+
+.input {
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+    padding: 24px 0 0 0;
+}
+
+.vvod {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 0 56px;
+    width: 458.5px;
+    height: 65px;
+    border: 1px solid rgba(226, 232, 240, 1);
+    border-radius: 8px;
+    background: url("../images/icons/master-card-payment.svg") no-repeat 25px center;
+}
+
+.vvod2 {
+    padding: 0 0 0 56px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 458.5px;
+    height: 65px;
+    border: 1px solid rgba(226, 232, 240, 1);
+    border-radius: 8px;
+    background: url("../images/icons/visa-payment.svg") no-repeat 25px center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+    
+}
+
+.btn:focus {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.btn:active {
+    outline: 2px solid black;
+    cursor: pointer;
+}
+
+.vvod:hover {
+    cursor: pointer;
+    outline: 1px solid black;
+    
+}
+
+.vvod:focus {
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.vvod:active {
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.vvod2:hover {
+    cursor: pointer;
+    outline: 1px solid black;
+    
+}
+
+.vvod2:focus {
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+.vvod2:active {
+    outline: 1px solid black;
+    cursor: pointer;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/payment.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="./styles/transactions.css">
 </head>
 <body>
-      <header>
+    <header>
         <nav class="header">
             <div class="billing">
             <p class="p-bil">Страницы  /  Выставление счетов</p>
@@ -32,7 +33,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main">
       <nav class="nav_main">
             <ul class="ul_nav">
                 <li class="src_li"><div class="icon_nav"><svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,6 +121,53 @@
                 <button class="btn_nav_doc">ДОКУМЕНТАЦИЯ</button>
             </div>
         </nav>
+        <section class="cards">
+            <div class="card1-block">
+                <article class="card1">
+                    <p class="text1">7812 2139 0823 XXXX</p>
+                    <div class="details">
+                        <div class="information">
+                            <p class="text2">ДЕЙСТВИТЕЛЕН ДО</p>
+                            <p class="text3">05/24</p>
+                        </div>
+                        <div class="CVV">
+                            <p class="text4">CVV</p>
+                            <p class="text5">09X</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="card2">
+                    <img class="logo" src="./images/icons/icon-payment-1.svg" alt="logo">
+                    <div class="text-card2">
+                        <p class="text10">Зарплата</p>
+                        <p class="text11">Интерактивное принадлежащее</p>
+                        <p class="vect"></p>
+                        <p class="text12">+ 20.000₽</p>
+                    </div>
+                </article>
+                <article class="card2">
+                    <img class="logo" src="./images/icons/ican-payment-2.svg" alt="logo">
+                    <div class="text-card2">
+                        <p class="text10">Счет</p>
+                        <p class="text11">Фриланс</p>
+                        <div class="vect"></div>
+                        <p class="text12">455.00₽</p>
+                    </div>
+                </article>
+            </div>
+            <div class="pay">
+                <article class="card3">
+                    <div class="text-card3">
+                        <p class="text14">Способ оплаты</p>
+                        <button class="btn">Добавить</button>
+                    </div>
+                    <div class="input">
+                        <input class="vvod" type="text" placeholder="7812 2139 0823 XXXX">
+                        <input class="vvod2" type="text" placeholder="7812 2139 0823 XXXX">
+                    </div>
+                 </article>                
+            </div>
+        </section>
         <section class="transactions">
             <div class="transactions__header">
                 <h2 class="transactions__title">Ваши транзакции</h2>
@@ -211,11 +259,8 @@
                 </div>
             </div>
       </section>
-
-        <section class="accounts"><!-- я, ваня и женя прижать к краю вправо и сделать паддинг -->
-            <section> <!-- ваня --> </section>
-            <section class="information"> <!-- я и женя -->
-                <section><!-- женя --></section>
+        <section class="accounts">
+            <section class="information">
                 <section class="billingm"> <!-- информация о выставлении счетов -->
                    <h2 class="titlebil">Информация о выставлении счетов</h2>
                    <article class="cards">
@@ -260,7 +305,7 @@
                             <button><img class="pen" src="./icons/Edit.svg" alt="ручка"></button>
                         </div>
                    </article>
-                </section>
+               </section>
     </main>
 </body>
 </html>
