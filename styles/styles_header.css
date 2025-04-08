@@ -1,6 +1,18 @@
 .header{
     padding: 44px 45px 38px 20px;
     background-color: #3182CE;
+    position: relative;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    top: 124px;
+    background: #3182CE;
+    z-index: -1;
+    left: 0;
 }
 .header{
     display: flex;
@@ -24,8 +36,7 @@
 }
 button { background: transparent; }
 .вход {
-    width: 58px;
-    height: 16px;
+    color: white;
 }
 .вход a{
     font-weight: 400 ;
