@@ -1,0 +1,80 @@
+/*.accounts{
+    width: 1584px;
+    height: 998px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.information{
+    width: 1584px;
+    height: 538px;
+}*/
+.billingm{
+    width: 900px;
+    height: 538px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 5px rgba(226, 226, 226, 0.3);
+    padding: 0 22px;
+}
+.titlebil{
+    font-weight: 400 ;
+    font-size: 18px ;
+    line-height: 140% ;
+    color: rgb(45, 55, 72);
+    margin: 0 0 18px;
+    padding: 28px 0 0 0;
+}
+.titlecard{
+    font-weight: 400 ;
+    font-size: 14px ;
+    line-height: 140% ;
+    color: rgb(113, 128, 150);
+}
+.textcard{
+    font-weight: 400 ;
+    font-size: 12px ;
+    line-height: 150% ;
+    color: rgb(160, 174, 192);
+    width: 266px;
+    height: 54px;
+}
+.текстcard{
+    width: 266px;
+    height: 81px;
+}
+.trashcan{
+    width: 15px;
+    height: 15px;
+}
+.pen{
+    width: 12px;
+    height: 12px;
+}
+.delete{
+    font-weight: 400 ;
+    font-size: 10px ;
+    line-height: 150% ;
+    color: red;
+    text-transform: uppercase
+}
+.cards{
+    width: 855px;
+    height: 133px;
+    padding: 26px 13px 26px 27px;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    margin: 0 0 24px 0;
+}
+.buttonm{
+    width: 91px;
+    display: flex;
+    justify-content: space-between;
+}
