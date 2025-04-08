@@ -1,0 +1,13 @@
+.footer ul {
+    display: flex;
+    gap: 36px;
+    justify-content: flex-end;
+    padding: 20px 32px 20px 0;
+}
+
+.footer ul li a {
+    color: rgba(160, 174, 192, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
