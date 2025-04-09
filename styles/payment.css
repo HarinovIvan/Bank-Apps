@@ -166,7 +166,8 @@
     height: 65px;
     border: 1px solid rgba(226, 232, 240, 1);
     border-radius: 8px;
-    background: url("../images/icons/master-card-payment.svg") no-repeat 25px center;
+    background: url("../images/icons/master-card-payment.svg") no-repeat, url("../images/icons/Vectorss.svg") no-repeat;
+    background-position: center left 25px, center right 20px;
 }
 
 .vvod2 {
@@ -177,7 +178,8 @@
     height: 65px;
     border: 1px solid rgba(226, 232, 240, 1);
     border-radius: 8px;
-    background: url("../images/icons/visa-payment.svg") no-repeat 25px center;
+    background: url("../images/icons/visa-payment.svg") no-repeat, url("../images/icons/Vectorss.svg") no-repeat;
+    background-position: center left 25px, center right 20px;
 }
 
 .btn:hover {
