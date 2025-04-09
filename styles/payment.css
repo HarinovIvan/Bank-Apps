@@ -1,16 +1,27 @@
 .cards {
     padding: 126px 0 0 304px;
+    display: flex;
+    align-items: center;
 }
 
 .card1-block
 {
     display: flex;
     gap: 24px;
+    margin-bottom: 24px;
 }
 
 .card1{
     background: url("../images/background/Background-payment.jpg") center / cover no-repeat;
     border-radius: 20px;
+    position: relative;
+}
+
+.card1::before{
+    content: url('../images/icons/circles.svg');
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .text1 {

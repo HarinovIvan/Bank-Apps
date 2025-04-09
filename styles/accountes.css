@@ -1,0 +1,79 @@
+.accountes{
+    width: 50%;
+    background-color: #FFFFFF;
+    box-shadow:0 10px 10px  #0000000D;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.accounts__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.accounts__btn{
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #3182CE;
+    padding: 10px;
+    border: 1px solid #3182CE;
+    border-radius: 10px;
+}
+
+.accountes__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.accounts__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.item__title{
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2D3748;
+}
+
+.accounts__desc{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #A0AEC0;
+}
+
+.accounts__other{
+    display: flex;
+    align-items: center;
+}
+
+.accounts__cost{
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #A0AEC0;
+    margin-right: 20px;
+}
+
+.accounts__btn-pdf{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accounts__pdf-title{
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #2D3748;
+}

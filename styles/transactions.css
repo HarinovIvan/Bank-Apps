@@ -1,11 +1,11 @@
 
 
 .transactions {
-    max-width: 660px;
     background-color: #FFFFFF;
     box-shadow: 0 10px 14px 0 #0000000D;
     border-radius: 20px;
     padding:20px 40px;
+    width: 55%;
 }
 .transactions__header {
     display: flex;
@@ -14,13 +14,14 @@
     margin-bottom: 20px;
 }
 .transactions__title {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 140%;
     letter-spacing: 0%;
+
 }
 .transactions__lower_title {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0%;
@@ -28,20 +29,19 @@
 }
 
 .transactions__main__title {
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 150%;
     letter-spacing: 0%;
     color: #A0AEC0;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .transactions__item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .transactions__item_mains {
     display: flex;
@@ -67,11 +67,10 @@
     line-height: 140%;
     letter-spacing: 0%;
     color: #2D3748;
-    margin-bottom: 5px;
 }
 .transactions__desc {
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 150%;
     letter-spacing: 0%;
     color: #A0AEC0;
