@@ -31,6 +31,7 @@ body{
     color: #FFFFFF;
     margin-bottom: 5px;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 .document_div_nav{
     display: flex;
@@ -58,6 +59,7 @@ body{
     border-radius: 8px;
     display: flex;
     justify-content: left;
+    cursor: pointer;
 }
 .src_a{
     color: #A0AEC0;
