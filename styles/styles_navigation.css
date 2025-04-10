@@ -63,7 +63,6 @@ body{
 }
 .src_a{
     color: #A0AEC0;
-    margin-left: 20px;
     align-self: center;
 }
 .acc_nav{
@@ -112,7 +111,7 @@ path{
     transition: all 0.3s ease 0s;
 }
 .icon_nav{
-    padding: 8px;
+    padding: 8px 8px 4px 8px;
     border-radius: 8px;
     background-color: #FFFFFF;
     display: flex;
