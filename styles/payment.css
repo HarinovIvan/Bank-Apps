@@ -183,47 +183,57 @@
 .btn:hover {
     cursor: pointer;
     outline: 2px solid black;
+    transition: all 0.3s ease-in 0s;
     
 }
 
 .btn:focus {
+    background-color:darkblue;
     cursor: pointer;
     outline: 2px solid black;
+    transition: all 0.3s ease-in 0s;
 }
 
 .btn:active {
     outline: 2px solid black;
     cursor: pointer;
+    transition: all 0.3s ease-in 0s;
 }
 
 .vvod:hover {
     cursor: pointer;
     outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
     
 }
 
 .vvod:focus {
     cursor: pointer;
     outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
 }
 
 .vvod:active {
     outline: 1px solid black;
     cursor: pointer;
+    transition: all 0.3s ease-in 0s;
 }
 
 .vvod2:hover {
     cursor: pointer;
     outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
     
 }
 
 .vvod2:focus {
     cursor: pointer;
     outline: 1px solid black;
+    transition: all 0.3s ease-in 0s;
 }
 
 .vvod2:active {
     outline: 1px solid black;
     cursor: pointer;
+    transition: all 0.3s ease-in 0s;
 }
